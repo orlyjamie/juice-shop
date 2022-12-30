@@ -1,0 +1,4 @@
+      - name: Nuclei - Vulnerability Scan
+        uses: projectdiscovery/nuclei-action@main
+        with:
+          target: https://juice-shop.herokuapp.com
